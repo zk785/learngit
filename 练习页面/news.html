@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻列表</title>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="setHomeSetFav.js" charset="gb2312"></script>
+</head>
+<body>
+    <!--顶部-->
+    <div class="top">
+        <div class="top_content">
+            <ul>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#" onclick="AddFavorite(window.location,document.title)"> 加入收藏</a></li>
+                <li><a href="#" onclick="SetHome(window.location)"> 设为首页</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="wrap">
+        <div class="logo">
+            <div class="logo_left">
+                <img src="images/logo.jpg" alt="慕课网"/>
+            </div>
+            <div class="logo_right">
+                <img src="images/tel.jpg" alt="服务热线"/>
+                24小时热线:<span class="tel">123456</span>
+            </div>
+        </div>
+
+        <div class="nav">
+            <div class="nav_left"></div>
+            <div class="nav_mid">
+                <div class="nav_mid_left">
+                    <ul>
+                        <li><a href="#">首页</a> </li>
+                        <li><a href="#">关于慕课</a> </li>
+                        <li><a href="#">新闻动态</a> </li>
+                        <li><a href="#">课程中心</a> </li>
+                        <li><a href="#">在线课堂</a> </li>
+                        <li><a href="#">人才招聘</a> </li>
+                    </ul>
+                </div>
+                <div class="nav_mid_right">
+                    <form action="" method="post">
+                        <input class="search_text" type="text"/>
+                    </form>
+                </div>
+            </div>
+            <div class="nav_right"></div>
+        </div>
+        <!--nav结束-->
+
+        <div class="ad" id="picBox" style="height: 243px;">
+            <img src="images/ad.jpg"/>
+        </div>
+        <!--ad结束-->
+        <div class="list_main">
+			<div class="news_type">
+				<h2>新闻中心</h2>
+				<div class="news_type_content">
+					<ul>
+						<li><a href="#">新闻</a></li>
+						<li><a href="#">新闻</a></li>
+						<li><a href="#">新闻</a></li>
+						<li><a href="#">新闻</a></li>
+						<li><a href="#">新闻</a></li>
+						<li><a href="#">新闻</a></li>
+						<li><a href="#">新闻</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="list_box">
+				<h2>新闻中心</h2>
+				<div class="news_list">
+					<ul>
+						<li><a href="newscontent.html" target="_blank">关于慕课</a> </li>
+                        <li><a href="#">新闻动态</a> </li>
+                        <li><a href="#">课程中心</a> </li>
+                        <li><a href="#">在线课堂</a> </li>
+                        <li><a href="#">人才招聘</a> </li>
+					</ul>
+				</div>
+				<!-- news_list ends -->
+				<div class="page">
+					<a href="#">首页</a><a href="#">&lt;</a>
+					<a href="#" class="active">1</a>
+					<a href="#">2</a><a href="#">3</a>
+					<a href="#">…</a><a href="#">&gt;</a>
+					<a href="#">末页</a>
+				</div>
+			</div>
+        </div>
+
+        
+    </div>
+    <!--wrap结束-->
+
+    <div class="copyright">
+        <div class="copyright_content">
+            <ul>
+                <li><a href="#">关于</a>
+                    <ul>
+                        <li>什么是慕课</li>
+                        <li>慕课网是什么MOOC</li>
+                        <li>为什么做慕课网</li>
+                        <li>慕课网在做什么</li>
+                    </ul>
+                </li>
+                <li><a href="#">人才招聘</a>
+                    <ul>
+                        <li>产品中心</li>
+                        <li>研发中心</li>
+                        <li>运营中心</li>
+                    </ul>
+                </li>
+                <li><a href="#">留言</a>
+                    <ul>
+                        <li>QQ</li>
+                        <li>FACEBOOK</li>
+                        <li>微博</li>
+                    </ul>
+                </li>
+                <li><a href="#">关注</a>
+                    <ul>
+                        <li>企业合作</li>
+                        <li>文章投稿</li>
+                        <li>讲师招募</li>
+                        <li>人才招聘</li>
+                    </ul>
+                </li>
+                <li><a href="#"><img src="images/weixin.png"/>微信关注</a>
+                    <ul>
+                        <li><img src="images/qrcode.jpg"/></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
